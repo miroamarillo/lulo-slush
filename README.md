@@ -10,6 +10,12 @@ At this point the generator will use:
 ##Note
 This generator has not been registered with npm.
 
+##TODOS
+
++ Optimize size of files
++ Clean files that are not in use
++ Setup a proper testing environment
++ Setup Gulp goodies
 
 <!-- ## Getting Started
 
