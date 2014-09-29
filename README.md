@@ -1,9 +1,17 @@
-# lulo-slush [![Build Status](https://secure.travis-ci.org/miroamarillo/slush-lulo-slush.png?branch=master)](https://travis-ci.org/miroamarillo/slush-lulo-slush) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-lulo-slush.png)](http://badges.enytc.com/for/npm/slush-lulo-slush)
+# lulo-slush <!-- [![Build Status](https://secure.travis-ci.org/miroamarillo/slush-lulo-slush.png?branch=master)](https://travis-ci.org/miroamarillo/slush-lulo-slush) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-lulo-slush.png)](http://badges.enytc.com/for/npm/slush-lulo-slush) -->
 
-> Generator usign gulp, foundation and Angular.js
+Simple generator using foundation (No SASS), Gulp and Angular.js to generate small apps for testing.
+
+At this point the generator will use:
+
++ Foundation 5.4.5
++ Angular.js 1.3.0-rc.3
+
+##Note
+This generator has not been registered with npm.
 
 
-## Getting Started
+<!-- ## Getting Started
 
 Install `slush-lulo-slush` globally:
 
@@ -38,7 +46,7 @@ To find out more about Slush, check out the [documentation](https://github.com/k
 See the [CONTRIBUTING Guidelines](https://github.com/miroamarillo/slush-lulo-slush/blob/master/CONTRIBUTING.md)
 
 ## Support
-If you have any problem or suggestion please open an issue [here](https://github.com/miroamarillo/slush-lulo-slush/issues).
+If you have any problem or suggestion please open an issue [here](https://github.com/miroamarillo/slush-lulo-slush/issues). -->
 
 ## License 
 
