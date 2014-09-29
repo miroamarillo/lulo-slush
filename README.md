@@ -1,4 +1,4 @@
-# lulo-slush <!-- [![Build Status](https://secure.travis-ci.org/miroamarillo/slush-lulo-slush.png?branch=master)](https://travis-ci.org/miroamarillo/slush-lulo-slush) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-lulo-slush.png)](http://badges.enytc.com/for/npm/slush-lulo-slush) -->
+# lulo-slush
 
 Simple generator using foundation (No SASS), Gulp and Angular.js to generate small apps for testing.
 
