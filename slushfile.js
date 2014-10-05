@@ -24,7 +24,8 @@ function format(string) {
 var defaults = (function() {
     var homeDir = process.env.HOME || process.env.HOMEPATH || process.env.USERPROFILE,
         workingDirName = process.cwd().split('/').pop().split('\\').pop(),
-        osUserName = homeDir && homeDir.split('/').pop() || 'root',
+        //osUserName = homeDir && homeDir.split('/').pop() || 'root',
+        //gitUserName = 'miroamarillo',
         configFile = homeDir + '/.gitconfig',
         user = {};
     if (require('fs').existsSync(configFile)) {
@@ -32,8 +33,11 @@ var defaults = (function() {
     }
     return {
         appName: workingDirName,
-        userName: format(user.name) || osUserName,
-        authorEmail: user.email || ''
+        //userName: format(user.name) || gitUserName,
+        userName: 'miroamarillo',
+        authorEmail: user.email || '',
+        authorName: 'Julian Pineda',
+        appDescription: 'Simple App'
     };
 })();
 
@@ -44,7 +48,8 @@ gulp.task('default', function(done) {
         default: defaults.appName
     }, {
         name: 'appDescription',
-        message: 'What is the description?'
+        message: 'What is the description?',
+        default: defaults.appDescription
     }, {
         name: 'appVersion',
         message: 'What is the version of your project?',
@@ -52,6 +57,7 @@ gulp.task('default', function(done) {
     }, {
         name: 'authorName',
         message: 'What is the author name?',
+        default: defaults.authorName
     }, {
         name: 'authorEmail',
         message: 'What is the author email?',
