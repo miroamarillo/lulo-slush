@@ -16,6 +16,9 @@ This generator has not been registered with npm.
 + Clean files that are not in use
 + Setup a proper testing environment
 + Setup Gulp goodies
++ Setup Express
++ Integrate Express with gulp (gulp-express Maybe??)
++ Instructions to run bower and npm installation
 
 <!-- ## Getting Started
 
